@@ -111,6 +111,26 @@ body {
   line-height: 1.25em;
 }
 
+h1 {
+  font-weight: 600;
+  font-size: 45px;
+  color: #fff;
+  opacity: 0.9;
+  right: 105px;
+  top: 45px;
+  top: -149px;
+  z-index: 9; }
+
+h3 {
+  font-weight: 200;
+  font-size: 30px;
+  color: #fff;
+  opacity: 0.5;
+  right: 105px;
+  top: 45px;
+  top: -149px;
+  z-index: 9; }
+
 .active-banner-slider .owl-controls {
   position: absolute;
   top: 0;
@@ -143,4 +163,18 @@ body {
   .active-banner-slider .owl-controls {
     display: none;
   }
+}
+
+/* main wrapper for home screen */
+.main-wrapper{
+  text-align: center;
+  padding-top:2rem; 
+  padding-bottom:1rem; 
+  background-image: -moz-linear-gradient(135deg,  #ffd000 0%, #208aed 100%);
+  background-image: -webkit-linear-gradient(135deg, #ffd000 0%, #208aed 100%);
+  background-image: -ms-linear-gradient(135deg,  #ffd000 0%, #208aed 100%);
+}
+
+.button-area{
+  margin: 2rem;
 }
