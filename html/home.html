@@ -22,7 +22,7 @@
 
   <body>
       <div class="pos-f-t">
-    <nav class="navbar bg-dark navbar-light sticky-top flex-md-nowrap p-0" style="background-color: #528dbd34;">
+    <nav class="navbar bg-dark navbar-light sticky-top fixed-top flex-md-nowrap p-0" style="background-color: #528dbd34;">
         <button class="navbar-toggler" style="margin-left:1rem" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>   
 <!--             <img src="../images/dhimg.png" alt="logo" id="logo1" height="40" width="40">  --> 
@@ -46,7 +46,7 @@
       </ul>
       <ul class="navbar-nav px-3">
             <li class="nav-item text-nowrap">
-               <p class="text-white"><b>Sign in</b></p>
+               <p class="text-white" href="../html/signin.html"><b>Sign in</b></p>
 <!--           <p class="text-white"><b>Sign out</b></p>    -->
             </li>
       </ul>
@@ -102,18 +102,116 @@
                         <ol class="breadcrumb">
                           <li class="breadcrumb-item"><a href="#">Home</a></li>
                           <li class="breadcrumb-item"><a href="#">Fresh Fruit</a></li>
-                          <li class="breadcrumb-item active" aria-current="page">Tomato</li>
+                          <li class="breadcrumb-item active" aria-current="page">Featured Items</li>
                         </ol>
                       </nav>
               <!-- Item Cards -->    
-              <h4> Featured Items</h4>    
-              <div class="card-deck">
-                
-
-                  </div>
-                </div>
+              <div class="item-list"> 
+                  <h4> Featured Items</h4>    
+                  <div class="card-deck">
+                      <div class="card">
+                        <div class="card-header">
+                          <img src="../images/shopitems/strawberries2.jpeg" class="card-img-top" alt="...">
+                        </div>
+                          <div class="card-body">
+                          <h5 class="card-title">Strawberries</h5>
+                          <h4 class="card-text">$4/pack</h4>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">From Le Count Strawberry Farm</small>
+                          <br>  <br> 
+                          <div class ="button-area-right">
+                            <button class="btn btn-info" type="cart">Shop</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header">
+                          <img src="../images/shopitems/napacabbage.jpeg" class="card-img-top" alt="...">
+                        </div>
+                          <div class="card-body">
+                          <h5 class="card-title">Napa Cabbage</h5>
+                          <h4 class="card-text">$7/ea</h4>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">From Clay Bottom Farm</small>
+                          <br>  <br> 
+                          <div class ="button-area-right">
+                              <button class="btn btn-info" type="cart">Shop</button>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header">
+                          <img src="../images/shopitems/orangebellpepper.jpeg" class="card-img-top" alt="..."> 
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Orange Bell Pepper</h5>
+                          <h4 class="card-text">$3/ea</h4>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">From NatureFresh Farms</small>
+                          <br><br>
+                          <div class ="button-area-right">
+                              <button class="btn btn-info" type="cart">Shop</button>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-deck">
+                        <div class="card">
+                          <div class="card-header">
+                            <img src="../images/shopitems/broccoli.jpeg" class="card-img-top" alt="...">
+                          </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Broccoli</h5>
+                            <h4 class="card-text">$1.48/lbs</h4>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">From Le Count Strawberry Farm</small>
+                            <br><br>
+                            <div class ="button-area-right">
+                                <button class="btn btn-info" type="cart">Shop</button>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header">
+                            <img src="../images/shopitems/pineapple.jpeg" class="card-img-top" alt="...">
+                          </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Pineapple</h5>
+                            <h4 class="card-text">$5/ea</h4>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">From Clay Bottom Farm</small>
+                            <br><br>
+                            <div class ="button-area-right">
+                                <button class="btn btn-info" type="cart">Shop</button>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header">
+                            <img src="../images/shopitems/carrots.jpeg" class="card-img-top" alt="..."> 
+                          </div>
+                          <div class="card-body">           
+                            <h5 class="card-title">Organic Carrots</h5>
+                            <h4 class="card-text">$2/lbs</h4>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">From NatureFresh Farms</small>
+                            <br><br>
+                            <div class ="button-area-right">
+                                <button class="btn btn-info" type="cart">Shop</button>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+              </div>
+ 
         </body>
-        <footer class="footer mt-auto py-3">
+        <footer class="footer mt-auto py-3 bg-light">
             <div class="container">
               <span class="text-muted"><center>© 2019 Digital Harvest. All Rights Reserved.</center></span>
             </div>

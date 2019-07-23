@@ -179,6 +179,31 @@ h3 {
   margin: 2rem;
 }
 
+.button-area-right{
+  margin: 2rem;
+  align-content: flex-end;
+}
+
+.item-list{
+  margin: 1rem;
+}
 .card-deck{
   margin: 1rem;
+}
+
+.card-body{
+  column-count: 2;
+}
+
+.card-header{
+  background-color: #fff;
+  padding: 2rem; 
+}
+
+.card-text{
+  text-align:right;
+}
+
+.card-footer{
+  column-count: 2;
 }
