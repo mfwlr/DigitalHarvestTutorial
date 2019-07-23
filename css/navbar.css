@@ -43,7 +43,14 @@ body {
     text-align: left;
   }
 
+  .navbar{
+    position: fixed;
+    z-index: 10;
+  }
   
+  .collapse{
+    margin-top: 3.5rem; 
+  }
   .border-top { border-top: 1px solid #e5e5e5; }
   .border-bottom { border-bottom: 1px solid #e5e5e5; }
 
@@ -73,8 +80,8 @@ h3 {
 /* main wrapper for home screen */
 .main-wrapper{
   text-align: center;
-  padding-top:2rem; 
-  padding-bottom:1rem; 
+  padding-top: 5.5rem; 
+  padding-bottom: 1rem; 
   background-image: -moz-linear-gradient(135deg,  #ffd000 0%, #208aed 100%);
   background-image: -webkit-linear-gradient(135deg, #ffd000 0%, #208aed 100%);
   background-image: -ms-linear-gradient(135deg,  #ffd000 0%, #208aed 100%);
