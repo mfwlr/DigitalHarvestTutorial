@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <div class="main">
+        <img src="../images/dhimg.png" alt="logo" id="logo1" height="200" width="200">
+        <br>
+
+        <div class="container">
+            <div class="sign-up-content">
+                <form method="POST" class="signup-form">
+                    <h2 class="form-title">What type of user are you ?</h2>
+                    <div class="form-radio">
+                        <input type="radio" name="member_level" value="buyer" id="buyer" checked="checked" />
+                        <label for="buyer">Buyer</label>
+                        <input type="radio" name="member_level" value="seller" id="seller" />
+                        <label for="seller">Seller</label>
+                    </div>
+
+                    <div class="form-textbox">
+                        <label for="name">Your name</label>
+                        <input type="text" name="name" id="name" />
+                    </div>
+
+                    <div class="form-textbox">
+                        <label for="email">Your Email</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+
+                    <div class="form-textbox">
+                            <label for="pass">Password</label>
+                            <input type="pass" name="pass" id="pass" />
+                        </div>
+
+                    <div class="form-textbox">
+                        <label for="confirmpass">Confirm Password</label>
+                        <input type="password" name="confirmpass" id="confirmpass" />
+                    </div>
+
+
+                    <div class="form-group">
+                        <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                        <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                    </div>
+                    
+
+                    <div class="form-textbox">
+                        <input type="submit" name="submit" id="submit" class="submit" value="Create account" />
+                    </div>
+                </form>
+
+                <p class="loginhere">
+                    Already have an account ?<a href="../html/signin.html" class="loginhere-link"> Login here</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
