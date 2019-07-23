@@ -10,6 +10,7 @@
     <title>Digital Harvest</title>
 
     <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../fonts/open-iconic-master/font/css/open-iconic-bootstrap.css" rel="stylesheet">
     <!-- Font Icon -->
@@ -20,8 +21,12 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-light sticky-top flex-md-nowrap p-0" style="background-color: #528dbd34;">
-
+      <div class="pos-f-t">
+    <nav class="navbar bg-dark navbar-light sticky-top flex-md-nowrap p-0" style="background-color: #528dbd34;">
+        <button class="navbar-toggler" style="margin-left:1rem" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>   
+<!--             <img src="../images/dhimg.png" alt="logo" id="logo1" height="40" width="40">  --> 
+          </button>
      <div class="main-logo">
             <img src="../images/logo-blueyellow.png" alt="logo" id="logo1" height="50" width="160">
      </div>
@@ -50,7 +55,31 @@
         </li>
       </ul>
     </nav>
-    
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-1">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" href="#">Fresh Fruit</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Fresh Vegetables</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Organic Produce</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="#">Fresh Prepared Product</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="#">Nuts, Dried Fruit</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="#">Fresh Flowers</a>
+                </li>
+              </ul>
+        </div>
+      </div>
+  </div>
 
         <body>
                 <div class="main-wrapper">
@@ -69,10 +98,9 @@
         </body>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Icons -->
     <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
