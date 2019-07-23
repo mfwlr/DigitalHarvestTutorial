@@ -207,3 +207,7 @@ h3 {
 .card-footer{
   column-count: 2;
 }
+
+.empty-gap{
+  margin: 2rem;
+}
