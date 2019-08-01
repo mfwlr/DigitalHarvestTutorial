@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Digital Harvest</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../fonts/open-iconic-master/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../css/navbar.css" rel="stylesheet">
+  </head>
+
+  <body>
+      <div class="pos-f-t">
+        <nav class="navbar navbar-light sticky-top fixed-top flex-md-nowrap p-0" style="background-color: rgb(231,240,252);">
+            <button class="navbar-toggler" style="margin-left:1rem" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>   
+    <!--             <img src="../images/dhimg.png" alt="logo" id="logo1" height="40" width="40">  --> 
+              </button>
+        <div class="main-logo">
+                <img src="../images/digitalharvest-logo.png" alt="logo" id="logo1" height="46" width="150">
+        </div>
+        <!-- Search bar -->
+        <div class="input-group">
+                    <input type="text" class="form-control w-80 mr-sm-1" placeholder="Enter your search term..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-warning text-white" type="search">search</button>
+                    </div>
+        </div>
+          <ul class="navbar-nav px-3">
+                <li class="nav-item text-nowrap">
+                  <i class="material-icons md-light">shopping_cart</i>
+                </li>
+          </ul>
+          <ul class="navbar-nav px-3">
+                <li class="nav-item text-nowrap">
+                  <p href="../html/signin.html"><b>Sign in</b></p>
+    <!--           <p href="../html/home.html"><b>Sign out</b></p>    -->
+                </li>
+          </ul>
+          <ul class="navbar-nav px-3">
+            <li class="nav-item text-nowrap">
+              <i class="material-icons md-light" href="../html/signin.html">account_circle</i>
+            </li>
+          </ul>
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent" >
+            <div class="bg-light p-1">
+                <ul class="nav justify-content-center" style="background-color: rgb(231,240,252);">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Fresh Fruit</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Fresh Vegetables</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Prepared Product</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Nuts, Dried Fruit</a>
+                    </li>
+                  </ul>
+            </div>
+          </div>
+      </div>
+
+        <body>
+          <!-- main wrapper -->
+                <div class="main-wrapper">
+                            <div class="item d-flex align-items-center">
+                                <div class="container">
+                                    <div class="content">
+                                        <h2 class="text-white">My Shopping Basket</h2>                               
+                                        <div class="empty-gap"> </div>
+                                         
+                                      </div>
+                                </div>
+                            </div>
+                    </div>
+              <!-- Breadcrumb -->      
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="#">Home</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Basket</li>
+                        </ol>
+                      </nav>
+              <!-- Item List -->    
+              <div class="cart-list"> 
+                  <h4>Item List</h4>
+                  <table class="table table-hover" align="center">
+                        <thead>
+                          <tr class="table-warning" style="opacity: 0.9;">
+                            <th scope="col" style="padding-left:3%">Products</th>
+                            <th scope="col"></th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Total</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row" height=150 width=150><img src="../images/shopitems/strawberries2.jpeg" class="card-img-top"  alt="..."  > </th>
+                            <td style="vertical-align:middle">Strawberry</td>
+                            <td style="vertical-align:middle">$2</td>
+                            <td style="vertical-align:middle">
+                                    <div class="form-group col-md-5">
+                                            <select id="input-quantity" class="form-control form-control-sm">
+                                              <option>1</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                            </select>
+                                    </div>
+                            </td>
+                            <td style="vertical-align:middle">$4</td>
+                          </tr>
+                          <tr>
+                            <th scope="row" height=150 width=150><img src="../images/shopitems/pineapple.jpeg" class="card-img-top"   alt="..."  ></th>
+                            <td style="vertical-align:middle">Pineapple</td>
+                            <td style="vertical-align:middle">$3</td>
+                            <td style="vertical-align:middle">
+                                    <div class="form-group col-md-5">
+                                            <select id="input-quantity" class="form-control form-control-sm">
+                                              <option>1</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                            </select>
+                                    </div>
+                            </td>
+                            <td style="vertical-align:middle">$3</td>
+                          </tr>
+                          <tr>
+                            <th scope="row" height=150 width=150><img src="../images/shopitems/spinach.jpeg" class="card-img-top"  alt="..."  > </th>
+                            <td style="vertical-align:middle">Spinach</td>
+                            <td style="vertical-align:middle">$1</td>
+                            <td style="vertical-align:middle">
+                                    <div class="form-group col-md-5">
+                                            <select id="input-quantity" class="form-control form-control-sm">
+                                              <option>1</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                            </select>
+                                    </div>
+                            </td>
+                            <td style="vertical-align:middle">$3</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <div class="empty-gap"> </div>
+                      <div class="order-button"> 
+                            <button class="btn btn-outline-info" type="order" style="font-size:99%; margin-right:1rem; padding:0.5rem; padding-left: 2rem; padding-right: 2rem;">Keep Shopping</button>
+                            <button class="btn btn-info" type="order" style="font-size:99%; padding:0.5rem; padding-left: 2rem; padding-right: 2em;">Preceed To Order</button>
+                      </div>
+              </div>
+
+              <!-- buttons -->
+
+              <div class="empty-gap"> </div>
+        </body>
+        <footer class="footer mt-auto py-3 bg-light">
+            <div class="container">
+              <span class="text-muted"><center>© 2019 Digital Harvest. All Rights Reserved.</center></span>
+            </div>
+          </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+
+
+  </body>
+</html>

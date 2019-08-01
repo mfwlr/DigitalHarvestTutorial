@@ -65,6 +65,17 @@ h1 {
   top: -149px;
   z-index: 9; }
 
+
+h2 {
+  font-weight: 300;
+  font-size: 40px;
+  color: #fff;
+  opacity: 0.7;
+  right: 105px;
+  top: 45px;
+  top: -149px;
+  z-index: 9; }
+
 h3 {
   font-weight: 200;
   font-size: 30px;
@@ -91,6 +102,7 @@ h3 {
   margin: 2rem;
 }
 
+
 .button-area-right{
   float: right;
 }
@@ -103,6 +115,13 @@ h3 {
 .item-list{
   margin: 1rem;
 }
+
+.cart-list{
+  margin-top: 2.5rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
 .card-deck{
   margin: 1rem;
 }
@@ -126,4 +145,15 @@ h3 {
 
 .empty-gap{
   margin: 2rem;
+}
+
+/* table style */ 
+/* should figure out why it is not working */ 
+td{
+  vertical-align: middle;
+}
+
+.order-button{
+  text-align: right;
+  margin-right: 2rem;
 }
