@@ -157,3 +157,9 @@ td{
   text-align: right;
   margin-right: 2rem;
 }
+
+.order-review{
+  padding: 2.5rem;
+  width: 100%;
+  border:1px solid lightgrey;
+}
