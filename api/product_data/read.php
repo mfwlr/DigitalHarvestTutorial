@@ -5,7 +5,7 @@ header("Content-Type: application/json; charset=UTF-8");
  
 //includes for other files
 include_once '../config/database.php';
-include_once '../objects/product.php';
+include_once '../objects/product_data.php';
  
 //Set up database connection
 $database = new Database();
