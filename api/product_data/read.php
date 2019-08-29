@@ -15,7 +15,7 @@ $db = $database->getConnection();
 $theProduct = new ProductData($db);
  
 // Get all the products available
-$stmt = $product->read();
+$stmt = $theProduct->read();
 $num = $stmt->rowCount();
  
 // If we have products

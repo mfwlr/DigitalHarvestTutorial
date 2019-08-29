@@ -3,9 +3,9 @@ class Database{
  
     //The digital harvest credentials
     private $host = "localhost";
-    private $db_name = "digital_harvest";
+    private $db_name = "digitalharvestdb";
     private $username = "root";
-    private $password = "dhdev123!";
+    private $password = "";
     public $conn;
  
     // get the database connection
